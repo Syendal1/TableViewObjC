@@ -13,6 +13,7 @@
 		E3934DE01D4161EC0058CF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3934DDE1D4161EC0058CF3C /* Main.storyboard */; };
 		E3934DE21D4161EC0058CF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3934DE11D4161EC0058CF3C /* Assets.xcassets */; };
 		E3934DE51D4161EC0058CF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3934DE31D4161EC0058CF3C /* LaunchScreen.storyboard */; };
+		E3934DEE1D41648D0058CF3C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3934DED1D41648D0058CF3C /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E3934DE11D4161EC0058CF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3934DE41D4161EC0058CF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3934DE61D4161EC0058CF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3934DEC1D41648D0058CF3C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E3934DED1D41648D0058CF3C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E3934DE31D4161EC0058CF3C /* LaunchScreen.storyboard */,
 				E3934DE61D4161EC0058CF3C /* Info.plist */,
 				E3934DD51D4161EC0058CF3C /* Supporting Files */,
+				E3934DEC1D41648D0058CF3C /* TableViewController.h */,
+				E3934DED1D41648D0058CF3C /* TableViewController.m */,
 			);
 			path = TableViewObjectiveC;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				E3934DDD1D4161EC0058CF3C /* ViewController.m in Sources */,
 				E3934DDA1D4161EC0058CF3C /* AppDelegate.m in Sources */,
 				E3934DD71D4161EC0058CF3C /* main.m in Sources */,
+				E3934DEE1D41648D0058CF3C /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
